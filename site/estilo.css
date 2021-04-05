@@ -1,0 +1,76 @@
+    	body{
+            margin-left: 160px;
+            margin-right: 10%;
+            margin-bottom: 1000px;
+        }
+        h1{
+            color: green; font-size: 60px; text-align: center;
+        }
+        h1 a{
+            text-decoration-style: dotted;
+            color: green;
+        }
+        h1 a:hover{ color: pink; }
+
+        #p1{margin: 0 100px 0 200px; font-size: 1.5em;}
+
+        button:hover{ background-color: gray;}
+    	hr{
+    		border: none; border-top: 10px double blue; text-align: center; overflow: visible;
+    	}
+    	hr:after{
+    		background-color: white; padding: 4px; content: '***'; position: relative; top: -13px;
+    	}
+    	*{
+    		box-sizing: border-box;
+    	}
+        .container{
+            margin-left: -10px; margin-right: -10px;
+        }
+    	.container p{
+    		float: left;
+    		color: black; 
+    		width: 33.3333%;
+
+    		padding: 10px;
+    		font-family: arial;
+
+    		font-size:2em;
+    	}
+
+    	.clear{
+    		clear: both;
+    	}
+        .center{
+            text-align: center;
+        }
+        footer p{
+            float: right;
+            text-align: right;
+
+            position: relative;
+        }
+        .menu div{
+            /* position: relative;
+            right: 10%;*/
+            font-size: 1.3em;
+            background-color: purple;
+            color: white;
+            margin-bottom: 1em;
+            width: 100px;
+            font-family: Arial;
+            margin-left: -140px;
+            text-decoration: none;
+        }
+        .menu div:hover{
+            background-color: pink;
+            
+        }
+        .menu{
+
+            float: left;
+
+        }
+        .menu a{
+            text-decoration: none;
+        }
