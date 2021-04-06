@@ -4,7 +4,7 @@
             margin-bottom: 1000px;
         }
         h1{
-            color: green; font-size: 60px; text-align: center;
+            color: green; font-size: 50px; text-align: center;
         }
         h1 a{
             text-decoration-style: dotted;
@@ -16,7 +16,7 @@
 
         button:hover{ background-color: gray;}
     	hr{
-    		border: none; border-top: 10px double blue; text-align: center; overflow: visible;
+    		border: none; border-top: 10px double green; text-align: center; overflow: visible;
     	}
     	hr:after{
     		background-color: white; padding: 4px; content: '***'; position: relative; top: -13px;
@@ -25,17 +25,17 @@
     		box-sizing: border-box;
     	}
         .container{
-            margin-left: -10px; margin-right: -10px;
+            margin-left: -15px; margin-right: -15px;
         }
     	.container p{
     		float: left;
     		color: black; 
     		width: 33.3333%;
-
-    		padding: 10px;
+         /* border: solid pink; */
+    		padding: 15px;
     		font-family: arial;
-
-    		font-size:2em;
+            text-align: justify;
+    		font-size:1.3em;
     	}
 
     	.clear{
@@ -50,9 +50,10 @@
 
             position: relative;
         }
-        .menu div{
-            /* position: relative;
-            right: 10%;*/
+
+
+        .menu a:link, .menu a:visited{
+            display: block;
             font-size: 1.3em;
             background-color: purple;
             color: white;
@@ -61,8 +62,10 @@
             font-family: Arial;
             margin-left: -140px;
             text-decoration: none;
+            border: solid pink 1px;
         }
-        .menu div:hover{
+
+        .menu a:hover{
             background-color: pink;
             
         }
@@ -73,4 +76,9 @@
         }
         .menu a{
             text-decoration: none;
+        }
+        section{
+            font-size: 1.1em;
+            font-family: arial;
+            text-align: justify;
         }
