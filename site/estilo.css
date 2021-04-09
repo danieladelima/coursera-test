@@ -102,17 +102,17 @@
                 display: inline-block;
                 font-size: 3em;
                 width: 170px;
-                margin-bottom: 8px;
+                margin: 0 1px 8px 1px;
             }
             .menu{
-                margin: 0;
+                margin: 0 -1px 0 -1px;
                 position: static;
                 
             }
             .container p{
             float: none;
             width: 100%;
-            font-size:0.7em;
+            font-size:1em;
             }
             #p1{margin: 0 100px 0 200px; font-size: 1.6em;}
         }
