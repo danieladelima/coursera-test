@@ -4,19 +4,21 @@
             margin-bottom: 1000px;
         }
         h1{
-            color: green; font-size: 50px; text-align: center;
+            color: #009000;
+            font-size: 50px;
+            text-align: center;
         }
         h1 a{
             text-decoration-style: dotted;
-            color: green;
+            color: #009000;
         }
-        h1 a:hover{ color: pink; }
+        h1 a:hover{ color: #27201a; }
 
         #p1{margin: 0 100px 0 200px; font-size: 1.5em;}
 
         button:hover{ background-color: gray;}
     	hr{
-    		border: none; border-top: 10px double green; text-align: center; overflow: visible;
+    		border: none; border-top: 10px double #009000; text-align: center; overflow: visible;
     	}
     	hr:after{
     		background-color: white; padding: 4px; content: '***'; position: relative; top: -13px;
@@ -31,7 +33,7 @@
     		float: left;
     		color: black; 
     		width: 33.3333%;
-         /* border: solid pink; */
+         /* border: solid #888888; */
     		padding: 15px;
     		font-family: arial;
             text-align: justify;
@@ -55,18 +57,19 @@
         .menu a:link, .menu a:visited{
             display: block;
             font-size: 1.3em;
-            background-color: purple;
+            background-color: #009000;
             color: white;
             margin-bottom: 1em;
             width: 100px;
             font-family: Arial;
             margin-left: -140px;
             text-decoration: none;
-            border: solid pink 1px;
+            border: solid #27201a 3px;
+            border-radius: 10px;
         }
 
         .menu a:hover{
-            background-color: pink;
+            background-color: #27201a;
             
         }
         .menu{
@@ -81,4 +84,11 @@
             font-size: 1.1em;
             font-family: arial;
             text-align: justify;
+        }
+        img{
+            width:100%;
+            border-radius: 10px;
+        }
+        html{
+            background-color: pink;
         }
