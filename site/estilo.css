@@ -62,10 +62,10 @@
             margin-bottom: 1em;
             width: 100px;
             font-family: Arial;
-            margin-left: -140px;
             text-decoration: none;
             border: solid #27201a 3px;
             border-radius: 10px;
+            text-align: center;
         }
 
         .menu a:hover{
@@ -73,9 +73,9 @@
             
         }
         .menu{
-
-            float: left;
-
+            margin-left: -140px;
+            position: absolute;
+            top: 20px;
         }
         .menu a{
             text-decoration: none;
@@ -91,4 +91,26 @@
         }
         html{
             background-color: #ffeded;
+        }
+        @media (max-width: 991px){
+            body{
+                margin: 20px;
+            }
+            .menu a:link, .menu a:visited{
+                display: inline-block;
+                font-size: 3em;
+                width: 180px;
+                margin-bottom: 8px;
+            }
+            .menu{
+                margin: 0;
+                position: static;
+                
+            }
+            .container p{
+            float: none;
+            width: 100%;
+            font-size:1.8em;
+            }
+            #p1{margin: 0 100px 0 200px; font-size: 2.2em;}
         }
