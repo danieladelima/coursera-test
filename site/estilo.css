@@ -21,7 +21,7 @@
     		border: none; border-top: 10px double #009000; text-align: center; overflow: visible;
     	}
     	hr:after{
-    		background-color: white; padding: 4px; content: '***'; position: relative; top: -13px;
+    		background-color: #ffeded; padding: 4px; content: '***'; position: relative; top: -13px;
     	}
     	*{
     		box-sizing: border-box;
@@ -90,5 +90,5 @@
             border-radius: 10px;
         }
         html{
-            background-color: pink;
+            background-color: #ffeded;
         }
