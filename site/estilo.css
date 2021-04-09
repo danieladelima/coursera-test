@@ -14,7 +14,7 @@
         }
         h1 a:hover{ color: #27201a; }
 
-        #p1{margin: 0 100px 0 200px; font-size: 1.5em;}
+        #p1{margin: 0 100px 0 200px; font-size: 1.5em; font-weight: 600;}
 
         button:hover{ background-color: gray;}
     	hr{
@@ -35,7 +35,7 @@
     		width: 33.3333%;
          /* border: solid #888888; */
     		padding: 15px;
-    		font-family: arial;
+    		font-family: sans-serif;
             text-align: justify;
     		font-size:1.3em;
     	}
@@ -52,7 +52,9 @@
 
             position: relative;
         }
-
+        section{
+            font-family: sans-serif;
+        }
 
         .menu a:link, .menu a:visited{
             display: block;
@@ -94,12 +96,12 @@
         }
         @media (max-width: 991px){
             body{
-                margin: 20px;
+                margin: 50px;
             }
             .menu a:link, .menu a:visited{
                 display: inline-block;
                 font-size: 3em;
-                width: 180px;
+                width: 170px;
                 margin-bottom: 8px;
             }
             .menu{
@@ -110,7 +112,7 @@
             .container p{
             float: none;
             width: 100%;
-            font-size:1.8em;
+            font-size:0.7em;
             }
-            #p1{margin: 0 100px 0 200px; font-size: 2.2em;}
+            #p1{margin: 0 100px 0 200px; font-size: 1.6em;}
         }
